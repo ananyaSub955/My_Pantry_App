@@ -1,0 +1,10 @@
+things to do!!!
+
+
+1. design 3 pages designed out on flutter with UX
+2. implement validation (only a)
+ a. UX validation with jQuery 
+ b. business layer 
+ c. database validation to clean the user input 
+3. workflow for the business layer
+4. validations in BL  (part 2b)

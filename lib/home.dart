@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:pantry_app/coffeeprefs.dart';
 
 
 //creates a new class for me
@@ -27,9 +28,15 @@ class Home extends StatelessWidget {
           Container(
             color: Colors.purple[300],
             padding: const EdgeInsets.all(20),
-            child: const Text("yas queen"),
+            child: const CoffeePrefs(),
           ),
-        ],
+          Expanded(
+            child: Image.asset('assets/img/b2.jpeg',
+              fit: BoxFit.fitWidth,
+              alignment: Alignment.bottomCenter,
+            ),
+          ),
+        ]
         ),
     );
   }
