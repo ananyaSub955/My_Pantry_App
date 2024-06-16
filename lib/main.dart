@@ -4,7 +4,7 @@ import 'package:pantry_app/home.dart';
 
 void main() {
   runApp(const MaterialApp(
-    home: Sandbox()
+    home: Home()
   ));
 }
 
