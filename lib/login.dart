@@ -44,7 +44,7 @@ class LoginPage extends StatelessWidget {
                   borderRadius: BorderRadius.circular(18),
                   borderSide: BorderSide.none
               ),
-              fillColor: Colors.purple.withOpacity(0.1),
+              fillColor: Colors.pink.withOpacity(0.1),
               filled: true,
               prefixIcon: const Icon(Icons.person)),
         ),
@@ -55,7 +55,7 @@ class LoginPage extends StatelessWidget {
             border: OutlineInputBorder(
                 borderRadius: BorderRadius.circular(18),
                 borderSide: BorderSide.none),
-            fillColor: Colors.purple.withOpacity(0.1),
+            fillColor: Colors.pink.withOpacity(0.1),
             filled: true,
             prefixIcon: const Icon(Icons.password),
           ),
@@ -69,7 +69,7 @@ class LoginPage extends StatelessWidget {
           style: ElevatedButton.styleFrom(
             shape: const StadiumBorder(),
             padding: const EdgeInsets.symmetric(vertical: 16),
-            backgroundColor: Colors.purple,
+            backgroundColor: Colors.pink,
           ),
           child: const Text(
             "Login",
@@ -84,7 +84,7 @@ class LoginPage extends StatelessWidget {
     return TextButton(
       onPressed: () {},
       child: const Text("Forgot password?",
-        style: TextStyle(color: Colors.purple),
+        style: TextStyle(color: Colors.pink),
       ),
     );
   }
@@ -98,7 +98,7 @@ class LoginPage extends StatelessWidget {
             onPressed: () {
               Navigator.pushNamed(context, '/signup');
             },
-            child: const Text("Sign Up", style: TextStyle(color: Colors.purple),)
+            child: const Text("Sign Up", style: TextStyle(color: Colors.pink),)
         )
       ],
     );
